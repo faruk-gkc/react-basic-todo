@@ -1,13 +1,17 @@
 import './App.css';
-import Button from '@material-ui/core/Button';
 import React from 'react'
+import Header from './Header'
+import AddContact from './AddContact'
+import ContactList from './ContactList'
 
 
 function App() {
   return (
-      <Button variant="contained" color="primary">
-        Hello World
-      </Button>
+      <>
+        <Header />
+        <AddContact />
+        <ContactList />
+      </>
   );
 }
 
