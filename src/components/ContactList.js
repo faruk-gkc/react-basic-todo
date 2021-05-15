@@ -1,10 +1,11 @@
 import React from 'react'
+import {ListGroup} from 'react-bootstrap'
 
 const ContactList = () => {
     return (
-        <div>
-            ContactList
-        </div>
+        <ListGroup>
+            Contact List
+        </ListGroup>
     )
 }
 

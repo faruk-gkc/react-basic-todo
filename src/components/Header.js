@@ -1,13 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import { Navbar, Container } from "react-bootstrap";
 const Header = () => {
-    return (
-        <div className="ui fixed menu">
-            <div className="ui container center">
-                <h2>Contact Manager</h2>
-            </div>
-        </div>
-    )
-}
+  return (
+    <Navbar fixed="top" expand="lg" variant="light" bg="light" className="mb-4">
+      <Container>
+            <h2>Contact Manager</h2>
+      </Container>
+    </Navbar>
+  );
+};
 
-export default Header
+export default Header;
